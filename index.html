@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
+	<title>The Castro Family</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -16,43 +16,282 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/dear.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Connect</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav> 
 
 <!--- Image Slider -->
-
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/falls.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">The Castro Family</h1>
+			<h3>Family members and more info</h3>
+			<button type="button" class="btn btn-outline-light btn-lg">VIEW 
+			DEMO</button>
+			<button type="button" class="btn btn-primary btn-lg">Get Started
+			</button>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="img/family.JPG">
+	</div>
+	<div class="carousel-item">
+		<img src="img/food.jpg">
+	</div>
+</div>
+</div>
 
 <!--- Jumbotron -->
-
+<div class="container-fluid">
+<div class="row jumotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">This website will introduce you to my small but happy family.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+	</div>
+</div>
+</div>
 
 <!--- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Sports</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">Since we play mutliple sports, here is an idea of who plays what sport.</p>
+	</div>
 
+</div>
+</div>
 
 <!--- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-table-tennis"></i>
+		<h3>Pingpong</h3>
+		<p>Played by: Mitzi, Maria, Marlon, and Miguel</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-volleyball-ball"></i>
+		<h3>volleyball</h3>
+		<p>Played by: Mitzi, Maria, Marlon, and Miguel</p>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<i class="fas fa-basketball-ball"></i>
+		<h3>Basketball</h3>
+		<p>Played by: Marlon and Miguel</p>
+	</div>
+</div>
+<hr class="my-4">
+</div>
 
 
 <!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<h2>Mitzi Castro</h2>
+		<p>Hi! I am a Sophomore in Madison Academic High School. I am very passionate about volleyball and tennis. My favorite color is light blue. 
+			I like watching rom-com and horror. I enjoy playing in the snow and spending time with my family. I have recently gotten into playing 
+		computer games which I find pretty cool and my friends recently introduced me to anime and kdrama which I am now addicted to watching non-stop.</p>
+		<br>
+		<a href="#" class="btn btn-primary">Learn More</a>
+	</div>
+	<div class="col-lg-6">
+		<img src="img/me.JPG" class="img-fluid" width="350">
+	</div>
+</div>
+</div>
 
-
+<hr class="my-4">
 <!--- Fixed background -->
-
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
 
 <!--- Emoji Section -->
-
+<button class="fun"data-toggle="collapse" data-target="#emoji">click for fun
+</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/dude.gif" width="300">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/peace.gif" width="400">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/hi.gif" width="200">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/cutie.gif" width="200">
+	</div>
+</div>
+</div>
+</div>
   
 <!--- Meet the team -->
-
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Meet My Family</h1>
+	</div>
+	<hr>
+</div>
+</div>
 
 <!--- Cards -->
-
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-imd-top" src="img/mom.JPG" width="350">
+			<div class="card-body">
+				<h4 class="card-title">Maria Teresa D. Castro</h4>
+				<p class="card-text"> This is my mom. She is 47 years old. She is a nurse at West Tennessee Healthcare North Hospital. Her hobbies are: singing, watching tv, and traveling.
+					She supports me in all of my sports and prioritize family above everything else. I admire all of my mom's hardwork and how far she has come.
+				</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-imd-top" src="img/dad.JPG">
+			<div class="card-body">
+				<h4 class="card-title">Marlon L. Castro</h4>
+				<p class="card-text"> This is my dad. He is 46 years old. He also works at West Tennessee Healthcare North Hospital in central supply. His hobbies are: playing pingpong, working out,
+					and playing golf. One thing you should know about my dad is that he takes care of this family very much and he does anything just to spend time with the family. For instance, even 
+					he does not know how to bake, he still helps me and my mom out.
+				</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-imd-top" src="img/migz.JPG" width="350">
+			<div class="card-body">
+				<h4 class="card-title">Miguel Xavier Castro</h4>
+				<p class="card-text"> This is my brother. He is 19 years old. He is in the National Guard. He likes to play computer games and has recently gotten me into them and we often play together
+					and count it as our bonding time. We do not see each other very much in the house since he likes to be in the gameroom while I like to be locked in my room. But we still have a great 
+					bond despite the situation.
+				</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
 
 <!--- Two Column Section -->
-
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>Hazel</h2>
+			<p>Introducing you to our one and only pet. She is a 2 years old, Chinese Emperial Shih Tzu. That likes tennis balls, cheese, and milk. She likes walking outside, playing in the snow, running 
+				around the house, and putting her head out of a car window. Interesting fact about Hazel is that she likes to eat vegetables. Most of the time she would rather eat vegetables than meat.
+			</p>
+			
+			<br>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/dog.JPG" class="img-fluid" width="340">
+		</div>
+	</div>
+	<hr class="my-4">
+	</div>
 
 <!--- Connect -->
-
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>
+</div>
 
 <!--- Footer -->
-
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="img/bear.jpg">
+		<hr class="light">
+		<p>731-803-9367</p>
+		<p>mitzi.castro@students.jmcss.org</p>
+		<p>37 ohara lane</p>
+		<p>Jackson, TN, 38305</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Birthdays</h5>
+		<hr class="light">
+		<p>Maria: June 17, 1973</p>
+		<p>Marlon: June 1, 1974</p>
+		<p>Miguel: July 19, 2001</p>
+		<p>Mitzi: July 24, 2004</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Special Events</h5>
+		<hr class="light">
+		<p>New Year's Eve</p>
+		<p>Valentines</p>
+		<p>Thanksgiving</p>
+		<p>Christmas</p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy; family.com</h5>
+	</div>
+</div>
+</div>
+</footer>
 
 
 
